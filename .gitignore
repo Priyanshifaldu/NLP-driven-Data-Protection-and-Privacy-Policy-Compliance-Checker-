@@ -1,1 +1,18 @@
+.env
 
+__pycache__/
+.ipynb_checkpoints/
+
+*.bin
+*.pt
+*.pth
+
+checkpoint-*/
+
+saved_model/model.safetensors
+models/**/model.safetensors
+
+node_modules/
+
+venv/
+env/
