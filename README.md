@@ -1,8 +1,6 @@
-# NLP-driven-Data-Protection-and-Privacy-Policy-Compliance-Checker-
-NLP-driven Privacy Policy Compliance Checker that automatically classifies privacy policy clauses as Compliant, Non-Compliant, or Ambiguous using LegalBERT and transformer-based NLP. Features explainable AI (LIME), RAG-based regulatory citations, and automated compliance auditing across GDPR, CCPA, HIPAA, DPDP, and more.
-
 # NLP-Driven Data Protection & Privacy Policy Compliance Checker
 
+NLP-driven Privacy Policy Compliance Checker that automatically classifies privacy policy clauses as Compliant, Non-Compliant, or Ambiguous using LegalBERT and transformer-based NLP. Features explainable AI (LIME), RAG-based regulatory citations, and automated compliance auditing across GDPR, CCPA, HIPAA, DPDP, and more.
 An AI-powered Regulatory Technology (RegTech) solution that automates privacy policy compliance assessment using advanced Natural Language Processing (NLP) and Transformer-based models.
 
 The system analyzes privacy policy clauses and classifies them into:
