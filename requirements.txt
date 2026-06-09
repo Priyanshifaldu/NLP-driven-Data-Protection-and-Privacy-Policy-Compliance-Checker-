@@ -1,0 +1,16 @@
+torch
+transformers
+scikit-learn
+numpy
+pandas
+matplotlib
+nltk
+spacy
+lime
+faiss-cpu
+pdfminer.six
+PyMuPDF
+fastapi
+uvicorn
+redis
+psycopg2-binary
