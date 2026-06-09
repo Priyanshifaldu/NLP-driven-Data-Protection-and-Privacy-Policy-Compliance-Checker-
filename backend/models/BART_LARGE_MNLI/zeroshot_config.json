@@ -1,0 +1,9 @@
+{
+  "model_name": "facebook/bart-large-mnli",
+  "candidate_labels": [
+    "Ambiguous",
+    "Compliant",
+    "Non-Compliant"
+  ],
+  "model_path": "D:\\VScodefiles\\NLPPRO\\saved_zeroshot_model"
+}
