@@ -1,0 +1,5 @@
+{
+  "name": "AI Privacy Compliance Checker",
+  "description": "An intelligent assistant for GDPR & EU data protection compliance. This application helps users upload policy documents, analyze them for compliance gaps, and generate recommendations based on AI insights.",
+  "requestFramePermissions": []
+}

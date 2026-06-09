@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Privacy Compliance Checker</title>
+
+    <!-- ✅ Tailwind CDN for now (fine in dev) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary-blue': '#225B81',
+              'secondary-blue': '#3A7CA5',
+              'accent-blue': '#51A3BA',
+              'light-blue': '#C1DFF0',
+              'dark-grey': '#334155',
+              'medium-grey': '#64748B',
+              'light-grey': '#E2E8F0',
+              'text-primary': '#1A202C',
+              'text-secondary': '#4A5568',
+              'success-green': '#10B981',
+              'warning-orange': '#F59E0B',
+              'danger-red': '#EF4444'
+            },
+            boxShadow: {
+              'custom': '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)'
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- ✅ Importmap REMOVED -->
+    <!-- ❌ Remove all external React/Router/CDN imports -->
+    
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body class="bg-gray-100 antialiased">
+    <!-- ✅ Root container -->
+    <div id="root"></div>
+
+    <!-- ✅ Vite/React entry -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
